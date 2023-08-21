@@ -97,9 +97,9 @@ class BottomNavStyle3 extends StatelessWidget {
       padding: EdgeInsets.only(
           top: this.navBarEssentials!.padding?.top ?? 0.0,
           left: this.navBarEssentials!.padding?.left ??
-              MediaQuery.of(context).size.width * 0.05,
+              MediaQuery.of(context).size.width * 0.1,
           right: this.navBarEssentials!.padding?.right ??
-              MediaQuery.of(context).size.width * 0.05,
+              MediaQuery.of(context).size.width * 0.1,
           bottom: this.navBarEssentials!.padding?.bottom ??
               this.navBarEssentials!.navBarHeight! * 0.1),
       child: Column(
