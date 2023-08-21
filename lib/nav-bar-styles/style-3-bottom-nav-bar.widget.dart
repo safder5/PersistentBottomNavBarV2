@@ -116,7 +116,7 @@ class BottomNavStyle3 extends StatelessWidget {
                 width: this.navBarEssentials!.selectedIndex == 0
                     ? MediaQuery.of(context).size.width * 0.0
                     : itemWidth * this.navBarEssentials!.selectedIndex!,
-                height: 4.0,
+                height: 1.0,
               ),
               Flexible(
                 child: AnimatedContainer(
@@ -128,8 +128,8 @@ class BottomNavStyle3 extends StatelessWidget {
                   curve:
                       this.navBarEssentials!.itemAnimationProperties?.curve ??
                           Curves.ease,
-                  width: itemWidth,
-                  height: 4.0,
+                  width: itemWidth/2,
+                  height: 1.0,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     color: selectedItemActiveColor,
