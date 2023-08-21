@@ -115,7 +115,7 @@ class BottomNavStyle3 extends StatelessWidget {
                 color: Colors.transparent,
                 width: this.navBarEssentials!.selectedIndex == 0
                     ? MediaQuery.of(context).size.width * 0.0
-                    : (itemWidth * this.navBarEssentials!.selectedIndex!)/2,
+                    : itemWidth * this.navBarEssentials!.selectedIndex!,
                 height: 1.0,
               ),
               Flexible(
